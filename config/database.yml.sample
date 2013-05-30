@@ -1,0 +1,33 @@
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: app_prod
+  pool: 5
+  username: rodrigo
+  password: rodrigo
+  host: localhost
+  port: 5432
+  schema_search_path: public
+  min_messages: error
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: app_dev
+  pool: 5
+  username: rodrigo
+  password: rodrigo
+  host: localhost
+  port: 5432
+  schema_search_path: public
+  min_messages: notice
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: app_test
+  pool: 5
+  username: rodrigo
+  password: rodrigo
+  host: localhost
+  port: 5432
+  schema_search_path: public
+  min_messages: warning

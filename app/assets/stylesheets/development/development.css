@@ -1,0 +1,18 @@
+.old-browsers-keep-away
+{
+	background-color: #FDF2AB;
+	color: #000000;
+	
+	display: block;
+	clear: both;
+	float: left;
+	
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 10000;
+	
+	width: 100%;
+	padding: 8px;
+	margin: 0px;
+}

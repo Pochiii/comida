@@ -1,0 +1,125 @@
+
+/**
+ *  Style for mobile phones in portrait and landscape mode.
+ */
+@media  only screen
+        and (min-device-width : 320px)
+        and (max-device-width : 480px)
+{
+
+}
+
+/**
+ *  Style for mobile phones in landscape mode.
+ */
+@media  only screen 
+        and (min-width : 321px)
+{
+
+}
+
+/**
+ *  Style for mobile phones in portrait mode.
+ */
+@media  only screen 
+        and (max-width : 320px)
+{
+
+}
+
+/**
+ *  Style for iPad in both portrait and landscape mode.
+ */
+@media  only screen 
+        and (min-device-width : 768px) 
+        and (max-device-width : 1024px)
+{
+
+}
+
+/**
+ *  Style for iPad in landscape mode.
+ */
+@media  only screen 
+        and (min-device-width : 768px) 
+        and (max-device-width : 1024px) 
+        and (orientation : landscape)
+{
+    
+}
+
+/**
+ *  Style for iPad in portrait mode.
+ */
+@media  only screen 
+        and (min-device-width : 768px) 
+        and (max-device-width : 1024px) 
+        and (orientation : portrait)
+{
+
+}
+
+/**
+ *  Style for desktops and laptops, minimum 320px.
+ */
+@media  only screen 
+        and (min-width : 320px)
+{
+
+}
+
+/**
+ *  Style for desktops and laptops, minimum 480px.
+ */
+@media  only screen 
+        and (min-width : 480px)
+{
+
+}
+
+/**
+ *  Style for desktops and laptops, minimum 768px.
+ */
+@media  only screen 
+        and (min-width : 768px)
+{
+
+}
+
+/**
+ *  Style for desktops and laptops, minimum 980px.
+ */
+@media  only screen 
+        and (min-width : 980px)
+{
+
+}
+
+/**
+ *  Style for desktops and laptops, minimum 1200px.
+ */
+@media  only screen 
+        and (min-width : 1200px)
+{
+
+}
+
+/**
+ *  Style for desktops and laptops with larger screens.
+ */
+@media  only screen 
+        and (min-width : 1824px)
+{
+
+}
+
+/**
+ *  Style for iPhone 4+ devices
+ */
+@media  only screen
+        and (-webkit-min-device-pixel-ratio : 1.5),
+        only screen
+        and (min-device-pixel-ratio : 1.5)
+{
+
+}

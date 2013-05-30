@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="author" content="Rodrigo Fuentealba Cartes">
+<meta name="description" content="An application skeleton">
+<title>Application Skeleton</title>
+<%= stylesheet_link_tag "application", :media => "all" %>
+<%= csrf_meta_tags %>
+<!--[if IE]>
+<%= javascript_include_tag "libs/html5shiv" %>
+<![endif]-->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="<%= image_path "icons/apple-touch-icon-144-precomposed.png" %>">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="<%= image_path "icons/apple-touch-icon-114-precomposed.png" %>">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<%= image_path "icons/apple-touch-icon-72-precomposed.png" %>">
+<link rel="apple-touch-icon-precomposed" href="<%= image_path "icons/apple-touch-icon-57-precomposed.png" %>">
+<link rel="shortcut icon" href="<%= image_path "icons/favicon.png" %>">
+</head>
+<body>
+	<!--[if lt IE 9]>
+	<p class="old-browsers-keep-away">
+		You are using an <strong>outdated</strong> browser.
+		Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
+	</p>
+	<![endif]-->
+
+    <!-- development output -->
+	<div class="hide">
+		<div id="qunit"></div>
+		<div id="qunit-fixture"></div>
+	</div>
+	<!-- end of development output -->
+
+    <section class="container">
+        <br />
+        <div class="alert alert-block alert-info">
+            Your content here.
+        </div>
+        <%= yield %>
+    </section>
+
+    <%= javascript_include_tag "application" %>
+</body>
+</html>

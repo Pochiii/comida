@@ -1,0 +1,12 @@
+app:
+  name:             "comida"
+  user:             "deploy"
+  domain:           "comida"
+  address:          "10.0.0.250"
+github:
+  repository:       repository
+  branch:           branch
+mysql:
+  root_password:    password
+ruby:
+  version:          "2.0.0-p0"
